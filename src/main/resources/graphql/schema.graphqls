@@ -1,0 +1,22 @@
+type Query{
+    allPatients: [Patient],
+    patientById (id:Int): Patient
+}
+
+type Mutation{
+    savePatient(patientDTO:PatientDTO):Patient
+}
+
+type Patient{
+    id: Int,
+    firstName: String,
+    email: String,
+    description_diagnostic: String
+}
+
+input PatientDTO{
+    id: Int,
+    firstName: String,
+    email: String,
+    description_diagnostic: String
+}
