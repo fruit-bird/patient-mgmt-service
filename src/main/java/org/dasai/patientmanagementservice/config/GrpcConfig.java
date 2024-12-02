@@ -1,4 +1,4 @@
-package org.boumya.patientmanagementservice.config;
+package org.dasai.patientmanagementservice.config;
 
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.context.annotation.Configuration;

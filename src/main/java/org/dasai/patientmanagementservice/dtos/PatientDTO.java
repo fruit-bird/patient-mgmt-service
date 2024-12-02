@@ -1,4 +1,4 @@
-package org.boumya.patientmanagementservice.dtos;
+package org.dasai.patientmanagementservice.dtos;
 
 import lombok.Data;
 

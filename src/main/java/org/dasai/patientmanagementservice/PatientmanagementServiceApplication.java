@@ -1,7 +1,7 @@
-package org.boumya.patientmanagementservice;
+package org.dasai.patientmanagementservice;
 
-import org.boumya.patientmanagementservice.entities.Patient;
-import org.boumya.patientmanagementservice.respositories.PatientRepository;
+import org.dasai.patientmanagementservice.entities.Patient;
+import org.dasai.patientmanagementservice.respositories.PatientRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

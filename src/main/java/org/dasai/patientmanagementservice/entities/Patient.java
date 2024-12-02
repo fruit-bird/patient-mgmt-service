@@ -1,4 +1,4 @@
-package org.boumya.patientmanagementservice.entities;
+package org.dasai.patientmanagementservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,10 +10,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Data @NoArgsConstructor @AllArgsConstructor @Builder
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

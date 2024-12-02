@@ -1,8 +1,8 @@
-package org.boumya.patientmanagementservice.web;
+package org.dasai.patientmanagementservice.web;
 
 import lombok.AllArgsConstructor;
-import org.boumya.patientmanagementservice.entities.Patient;
-import org.boumya.patientmanagementservice.respositories.PatientRepository;
+import org.dasai.patientmanagementservice.entities.Patient;
+import org.dasai.patientmanagementservice.respositories.PatientRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,10 +1,10 @@
-package org.boumya.patientmanagementservice.web;
+package org.dasai.patientmanagementservice.web;
 
 import lombok.AllArgsConstructor;
-import org.boumya.patientmanagementservice.dtos.PatientDTO;
-import org.boumya.patientmanagementservice.entities.Patient;
-import org.boumya.patientmanagementservice.mapper.PatientMapper;
-import org.boumya.patientmanagementservice.respositories.PatientRepository;
+import org.dasai.patientmanagementservice.dtos.PatientDTO;
+import org.dasai.patientmanagementservice.entities.Patient;
+import org.dasai.patientmanagementservice.mapper.PatientMapper;
+import org.dasai.patientmanagementservice.respositories.PatientRepository;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
@@ -35,6 +35,4 @@ public class PatientGraphQLController {
         Patient patient = patientMapper.fromPatientDtoToPatientEntity(patientDTO);
         return patientRepository.save(patient);
     }
-
-
 }

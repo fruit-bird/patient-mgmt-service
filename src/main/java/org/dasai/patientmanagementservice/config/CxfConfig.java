@@ -1,9 +1,9 @@
-package org.boumya.patientmanagementservice.config;
+package org.dasai.patientmanagementservice.config;
 
 import lombok.AllArgsConstructor;
 import org.apache.cxf.Bus;
 import org.apache.cxf.jaxws.EndpointImpl;
-import org.boumya.patientmanagementservice.web.PatientSoapService;
+import org.dasai.patientmanagementservice.web.PatientSoapService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

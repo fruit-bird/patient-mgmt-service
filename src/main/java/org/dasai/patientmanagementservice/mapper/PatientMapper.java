@@ -1,9 +1,9 @@
-package org.boumya.patientmanagementservice.mapper;
+package org.dasai.patientmanagementservice.mapper;
 
 import emsi.ace.patientmanagementservice.stub.PatientServiceGrpc;
 import emsi.ace.patientmanagementservice.stub.PatientServiceOuterClass;
-import org.boumya.patientmanagementservice.dtos.PatientDTO;
-import org.boumya.patientmanagementservice.entities.Patient;
+import org.dasai.patientmanagementservice.dtos.PatientDTO;
+import org.dasai.patientmanagementservice.entities.Patient;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 

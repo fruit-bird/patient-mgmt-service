@@ -1,12 +1,12 @@
-package org.boumya.patientmanagementservice.web;
+package org.dasai.patientmanagementservice.web;
 
 import emsi.ace.patientmanagementservice.stub.PatientServiceGrpc;
 import emsi.ace.patientmanagementservice.stub.PatientServiceOuterClass;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
-import org.boumya.patientmanagementservice.entities.Patient;
-import org.boumya.patientmanagementservice.mapper.PatientMapper;
-import org.boumya.patientmanagementservice.respositories.PatientRepository;
+import org.dasai.patientmanagementservice.entities.Patient;
+import org.dasai.patientmanagementservice.mapper.PatientMapper;
+import org.dasai.patientmanagementservice.respositories.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
